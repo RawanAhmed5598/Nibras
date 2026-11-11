@@ -43,3 +43,16 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# ESP-IDF build and local configuration
+**/build/
+**/sdkconfig
+**/sdkconfig.old
+
+# Android local files
+**/local.properties
+**/.gradle/
+
+# Keep shared ESP-IDF default configuration
+!**/sdkconfig.defaults
+
